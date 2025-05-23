@@ -1,0 +1,13 @@
+put {"id":"key","name":"users","doc":{"id":"1","name":"Andriy"}}
+put {"id":"key","name":"users","doc":{"id":"2","name":"Lubov"}}
+put {"id":"key","name":"users","doc":{"id":"3","name":"Roman"}}
+put {"id":"key","name":"users","doc":{"id":"4","name":"Oliy"}}
+put {"id":"key","name":"users","doc":{"id":"5","name":"Taras"}}
+get {"id":"key","name":"users"}
+delete {"id":"key","name":"users"}
+
+
+put {"id":"key","name":"books","doc":{"id":"1","name":"S.Jobs"}}
+put {"id":"key","name":"books","doc":{"id":"2","name":"J.Fielding"}}
+get {"id":"key","name":"books"}
+delete {"id":"key","name":"books"}
